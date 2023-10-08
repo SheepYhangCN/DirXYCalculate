@@ -1,7 +1,7 @@
 //By SheepYhangCN
 using System;
 
-namespace SheepYhangCN
+namespace SheepYhangCN.DirXYCalculate
 {   
     public static class DirXYCalculate
     {

@@ -2,7 +2,7 @@
 |-|
 | **English**, [简体中文](README_sChs.md), [繁體中文](README_tChs.md), [日本語](README_Ja.md)|
 # How to use
-Add ```Using SheepYhangCN;``` at the head of your C# file
+Add ```Using SheepYhangCN.DirXYCalculate;``` at the head of your C# file
 
 ## LengthDir
 ```Target.X+=DirXYCalculate.LengthDirX(Angle,Range to target);```<br>
