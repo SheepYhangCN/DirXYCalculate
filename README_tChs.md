@@ -7,3 +7,7 @@
 
 ## PointDirection
 ```Target.Angle=DirXYCalculate.PointDirection(當前X,當前Y,目標X,目標Y);```
+
+# 關於 ```DegreesRadians.cs```
+詳見 [SheepYhangCN/DegreesRadians](https://github.com/SheepYhangCN/DegreesRadians) <br>
+如果你不想要 ```DegreesRadians.cs```，那麼就不要使用 ```DirXYCalculate.cs``` 而是用 ```DirXYCalculate_NeedntDegreesRadiansFunc.cs```

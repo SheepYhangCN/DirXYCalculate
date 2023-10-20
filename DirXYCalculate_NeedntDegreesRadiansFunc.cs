@@ -1,6 +1,5 @@
 //By SheepYhangCN
 using System;
-using SheepYhangCN.DegreesRadians;
 
 namespace SheepYhangCN.DirXYCalculate
 {   
@@ -8,15 +7,18 @@ namespace SheepYhangCN.DirXYCalculate
     {
         public static double PointDirection(double x1,double y1,double x2,double y2)
         {
-            return DegRadConvert.RadiansToDegrees(Math.Atan2(x2-x1,y2-y1));
+            double tan=Math.Atan2(x2-x1,y2-y1);
+            return tan*180/Math.PI;
         }
         public static double LengthDirX(double angle,double length)
         {
-            return Math.Sin(DegRadConvert.DegreesToRadians(angle))*length;
+            double dir=angle*Math.PI/180;
+            return Math.Sin(dir)*length;
         }
         public static double LengthDirY(double angle,double length)
         {
-            return Math.Cos(DegRadConvert.DegreesToRadians(angle))*length;
+            double dir=angle*Math.PI/180;
+            return Math.Cos(dir)*length;
         }
     }
 }
