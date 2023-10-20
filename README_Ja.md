@@ -1,5 +1,5 @@
 # 使い方
-```Using SheepYhangCN.DirXYCalculate;``` をあなたのC＃ファイルの先頭に追加してください。
+```using SheepYhangCN.DirXYCalculate;``` をあなたのC＃ファイルの先頭に追加してください。
 
 ## LengthDir
 ```Target.X+=DirXYCalculate.LengthDirX(角度,目標までの距離);```<br>
